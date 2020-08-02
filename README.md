@@ -15,9 +15,9 @@
 
 ```json
 {
-    message: "api is healthy",
-    apiVersion: "v1",
-    lumenVersion: "Lumen (7.2.1) (Laravel Components ^7.0)"
+    "message": "api is healthy",
+    "apiVersion": "v1",
+    "lumenVersion": "Lumen (7.2.1) (Laravel Components ^7.0)"
 }
 ```
 
