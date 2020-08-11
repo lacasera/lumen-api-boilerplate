@@ -42,6 +42,7 @@
             "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
         ],
         "test": "./vendor/bin/pest",
-        "serve": "php -S localhost:9001 -t public"
+        "serve": "php -S localhost:9001 -t public",
+        "serve:docs": "npx speccy serve -c speccy.yml docs/spec.yml"
     }
 }
