@@ -1,0 +1,26 @@
+{
+  "name": "lumen-api-boilerplate",
+  "version": "1.0.0",
+  "description": "#### Features",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lacasera/lumen-api-boilerplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lacasera/lumen-api-boilerplate/issues"
+  },
+  "homepage": "https://github.com/lacasera/lumen-api-boilerplate#readme",
+  "dependencies": {
+    "speccy": "0.11.0"
+  }
+}

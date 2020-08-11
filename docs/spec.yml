@@ -1,0 +1,40 @@
+openapi: "3.0.0"
+info:
+  version: 1.0.0
+  title: My Awesome API
+  license:
+    name: MIT
+servers:
+  - url: http://api.myapp.io/v1
+paths:
+  /health:
+    get:
+      summary: List API Version and Health
+      operationId: health
+      tags:
+        - health
+      responses:
+        '200':
+          description: Checks Api Health
+          content:
+            application/json:    
+              schema:
+                $ref: "#/components/schemas/Health"
+
+components:
+  schemas:
+    Health:
+      type: object
+      required:
+        - id
+        - name
+      properties:
+        message:
+          type: string
+          example: api is healthy
+        apiVersion:
+          type: string
+          example: v1
+        lumenVersion:
+          type: string
+          example: Lumen (7.2.1) (Laravel Components ^7.0)
