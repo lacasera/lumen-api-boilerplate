@@ -1,4 +1,4 @@
-## Lumen API Boilerplate
+## Lumen API Boilerplate ![Lumem](https://github.com/lacasera/lumen-api-boilerplate/workflows/Lumem/badge.svg?branch=master)
 
 #### Features
 
